@@ -157,11 +157,3 @@
 .reason6{
     border-bottom: 5px solid rgb(253,200,164);
 }
-
-@media screen and (min-device-width:320px) and (max-device-width:480px){
-    .motto{
-        
-        font-size: 25px;
-        /* font-weight: bold; */
-    }
-}
