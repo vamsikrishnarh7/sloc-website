@@ -1,6 +1,62 @@
-@media screen and (min-device-width:320px) and (max-device-width:480px){
-    .motto{
-        font-size: 25px;
-        font-weight: bold;
+@media (max-width: 900px) {
+
+    /* header {
+        position: static;
+    } */
+
+    .navbar-container {
+        margin-left: 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-left{
+        margin-left: 0;
+    }
+    
+    .about-section {
+        padding: 32px 0px;
+        text-align: center;
+    }
+
+    .about-section-motto {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .about-section-subtext {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+
+    .about-section-btn-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    /* --------------footer section--------------- */
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .community, .socials{
+        margin-bottom: 20px;
+    }
+    .community h3, .socials h3{
+        margin-bottom: 10px;
+    }
+    .community ul, .socials ul{
+        align-items: center;
+    }
+    .contact-us{
+        border: 0;
+        padding-left: 0;
+        align-items: center;
+    }
+    .contact-us h3{
+        border-bottom: 1px solid white;
+        margin-bottom: 20px;
     }
 }
