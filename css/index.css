@@ -12,7 +12,9 @@
     width: 90%;
     margin: 0px auto;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 header {
     position: sticky;
     top: 0px;
@@ -57,6 +59,10 @@ header {
     list-style: none;
     /* padding: 10px; */
 }
+.nav-items-list button{
+    all: unset;
+    cursor: pointer;
+}
 .nav-items{
     font-size: 18px;
     font-weight: bold;
@@ -93,6 +99,11 @@ header {
 /* ----------------main content--------------------*/
 .about-section{
     padding: 140px 0px;
+}
+.about-us{
+    display: block;
+    text-align: center;
+    height: 100vh;
 }
 
 .about-section-container {
