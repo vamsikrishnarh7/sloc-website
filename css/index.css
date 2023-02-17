@@ -123,6 +123,7 @@ header {
     margin-bottom: 50px;
     max-width: 700px;
     line-height: 150%;
+    text-align: justify;
 }
 
 .about-section-btn-container {
