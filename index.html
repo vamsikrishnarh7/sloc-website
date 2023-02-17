@@ -9,6 +9,9 @@
     <link rel="icon" href="./images/SLOC logo.png">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/mobile.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,10 +25,10 @@
 
                 <div class="nav-right">
                     <ul class="nav-items-list">
-                        <li class="nav-items nav-item1">Home</li>
+                        <li class="nav-items nav-item1"><a href="index.html" style="text-decoration: none;color: black;">Home</a></li>
                         <li class="nav-items nav-item1">Resources</li>
                         <li class="nav-items nav-item2">Events</li>
-                        <li class="nav-items nav-item3">About Us</li>
+                        <button onclick="display('section2')"><li class="nav-items nav-item3">About Us</li></button>
                     </ul>
                     <div class="theme-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" class="dark-teme" stroke="rgb(47,141,70)" fill="none" viewBox="0 0 24 24" stroke-width="1.5" width="38px">
@@ -37,63 +40,69 @@
         </nav>
     </header>
     <main>
-        <section class="about-section">
-            <div class="container about-section-container">
-            <h1 class="about-section-motto">Help each other,<br> Grow together</h1>
-            <p class="about-section-subtext">
-                This is a community which provides <span style="color:rgb(47,141,70);">free hands-on training</span>
-                in various fields of computer science and have an inclusive community focusing on a
-                <span style="color:rgb(47,141,70);">learn by doing</span> approach.  </p>
-            <div class="about-section-btn-container">
-                <button class="about-section-btn">Ongoing Events</button>
-                <button class="about-section-btn">Projects list</button>
-            </div>
-        </div>
-        </section>
+        <div id="section1">
+            <section class="about-section">
+                <div class="container about-section-container">
+                    <h1 class="about-section-motto">Help each other,<br> Grow together</h1>
+                    <p class="about-section-subtext">
+                        This is a community which provides <span style="color:rgb(47,141,70);">free hands-on training</span>
+                        in various fields of computer science and have an inclusive community focusing on a
+                        <span style="color:rgb(47,141,70);">learn by doing</span> approach.  </p>
+                    <div class="about-section-btn-container">
+                        <button class="about-section-btn">Ongoing Events</button>
+                        <button class="about-section-btn">Projects list</button>
+                    </div>
+                </div>
+            </section>
 
-        <section class="why-section">
-            <div class="container">
-            <h2 class="why-section-heading">WHY SLOC?</h2>
-            <div class="reasons-container">
-                <div class="reasons reason1">
-                    <img src="./images/SLOC logo.png" alt="" class="reason-logo">
-                    <h2>Network</h2>
-                    <p>Getting into the SVCE Leauge of Coders will connect
-                        you with a huge network of coders across India
-                    </p>
+            <section class="why-section">
+                <div class="container">
+                <h2 class="why-section-heading">WHY SLOC?</h2>
+                <div class="reasons-container">
+                    <div class="reasons reason1">
+                        <img src="./images/SLOC logo.png" alt="" class="reason-logo">
+                        <h2>Network</h2>
+                        <p>Getting into the SVCE Leauge of Coders will connect
+                            you with a huge network of coders across India
+                        </p>
+                    </div>
+                    <div class="reasons reason2">
+                        <img src="./images/SLOC logo.png" alt="" class="reason-logo">
+                        <h2>Learning</h2>
+                        <p>There are contests every month to test your skills knowledge,
+                            ability to perform in restricted time.
+                        </p>
+                    </div>
+                    <div class="reasons reason3">
+                        <img src="./images/SLOC logo.png" alt="" class="reason-logo">
+                        <h2>Referrals</h2>
+                        <p>
+                            Our alumni team is really strong and canget you refferals to great companies
+                        </p>
+                    </div>
+                    <div class="reasons reason4">
+                        <img src="./images/SLOC logo.png" alt="" class="reason-logo">
+                        <h2>Knowledge transfer</h2>
+                        <p>It is a great place to discuss programming problems from worldwide contests</p>
+                    </div>
+                    <div class="reasons reason5">
+                        <img src="./images/SLOC logo.png" alt="" class="reason-logo">
+                        <h2>Career guidance</h2>
+                        <p>Career guidance from the experienced personnel</p>
+                    </div>
+                    <div class="reasons reason6">
+                        <img src="./images/SLOC logo.png" alt="" class="reason-logo">
+                        <h2>Workshops</h2>
+                        <p>Great workshops on Data Structures, Algorithms and Web/Android Development as well </p>
+                    </div>
                 </div>
-                <div class="reasons reason2">
-                    <img src="./images/SLOC logo.png" alt="" class="reason-logo">
-                    <h2>Learning</h2>
-                    <p>There are contests every month to test your skills knowledge,
-                        ability to perform in restricted time.
-                    </p>
-                </div>
-                <div class="reasons reason3">
-                    <img src="./images/SLOC logo.png" alt="" class="reason-logo">
-                    <h2>Referrals</h2>
-                    <p>
-                        Our alumni team is really strong and canget you refferals to great companies
-                    </p>
-                </div>
-                <div class="reasons reason4">
-                    <img src="./images/SLOC logo.png" alt="" class="reason-logo">
-                    <h2>Knowledge tranfer</h2>
-                    <p>It is a great place to discuss programming problems from worldwide contests</p>
-                </div>
-                <div class="reasons reason5">
-                    <img src="./images/SLOC logo.png" alt="" class="reason-logo">
-                    <h2>Career guidance</h2>
-                    <p>Career guidance from the experienced personnel</p>
-                </div>
-                <div class="reasons reason6">
-                    <img src="./images/SLOC logo.png" alt="" class="reason-logo">
-                    <h2>Workshops</h2>
-                    <p>Great workshops on Data Structures, Algorithms and Web/Android Development as well </p>
-                </div>
+            </section>
+        </div>
+        <div id="section2">
+            <div class="about-us">
+                <h1>About us</h1>
             </div>
         </div>
-    </section>
     </main>
     <footer>
         <div class="footer-container">
@@ -126,6 +135,6 @@
             <p>©️Copyright SLOC 2023.</p>
         </div>
     </footer>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
-
 </html>
