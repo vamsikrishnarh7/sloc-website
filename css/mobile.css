@@ -60,3 +60,47 @@
         margin-bottom: 20px;
     }
 }
+
+/* -----------Hamburger Menu------------- */
+
+@media(max-width:480px){
+    .nav-items-list{
+        height: 50vh;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        margin-left: 100px;
+    }
+    .nav-items-list li{
+        padding: 6px;
+    }
+    .openMenu,.nav-right,.closeMenu{
+        display: block;
+    }
+    .navbar-container{
+        flex-direction: row;
+    }
+    .nav-right{
+        flex-direction: row;
+        position: relative;
+    }
+    .nav-left{
+        position: relative;
+        left: 20px;
+    }
+    .closeMenu{
+        position: absolute;
+        top: 40px;
+        right: 30px;
+    }
+    .theme-btn{
+        display: none;
+    }
+}
