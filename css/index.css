@@ -71,6 +71,7 @@ header {
 .closeMenu{
     display: none;
     font-family:'sans-serif';
+    font-size: 1.3rem;
 }
 .nav-items{
     font-size: 18px;
