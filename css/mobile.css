@@ -108,4 +108,7 @@
     .theme-btn{
         display: none;
     }
+    .site-title{
+        font-size: 28px;
+    }
 }
