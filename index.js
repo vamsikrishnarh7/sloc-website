@@ -1,7 +1,7 @@
 const mainMenu=document.querySelector('.nav-items-list');
 const openMenu=document.querySelector('.openMenu');
 const closeMenu=document.querySelector('.closeMenu');
-const aboutUs=document.querySelector('.aboutus');
+const aboutUs=document.querySelector('.aboutusli-item');
 const navRight=document.querySelector('.nav-right');
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',hide);
