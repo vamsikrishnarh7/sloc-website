@@ -111,4 +111,16 @@
     .site-title{
         font-size: 28px;
     }
+    .about-us{
+        height: 500vh;
+    }
+    .fullform{
+        font-size: 18px;
+    }
+    .photos{
+        flex-direction: column;
+    }
+    .about-us-text{
+        font-size: 16px;
+    }
 }
