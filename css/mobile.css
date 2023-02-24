@@ -65,7 +65,7 @@
 
 @media(max-width:480px){
     .nav-items-list{
-        height: 50vh;
+        height: 40vh;
         background-color: rgb(255, 255, 255);
         position: fixed;
         top: 0;
@@ -77,9 +77,11 @@
         align-items: center;
         display: none;
         margin-left: 100px;
+        margin-top: 50px;
     }
     .nav-items-list li{
         padding: 6px;
+        font-size: 20px;
     }
     .openMenu,.nav-right,.closeMenu{
         display: block;
