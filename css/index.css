@@ -340,3 +340,33 @@ footer{
     text-align: center;
     height: 100vh;
 }
+.reslinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+.reslinks div{
+    width: 200px;
+    height: 250px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    align-items: center;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+.reslinks div img{
+    height: 58%;
+    width: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;   
+}
+.reslinks div p{
+    padding: 20px;
+    font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+}
+
