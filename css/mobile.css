@@ -125,4 +125,10 @@
     .about-us-text{
         font-size: 16px;
     }
+    .resources{
+        height: 330vh;
+    }
+    .reslinks{
+        flex-direction: column;
+    }
 }
